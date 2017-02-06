@@ -1,0 +1,31 @@
+// ProgrammingQuiz.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+int main()
+{
+    //Assessment 1 program
+
+	//saying hello
+	cout << "Please enter your name: ";
+
+	//Accepting entire line of user input
+	string userinput;
+	//Gathering input
+	getline(cin, userinput);
+
+	//Displaying and welcoming
+	cout << "Hello! Welcome " << userinput << " to bottom_text's programming quiz! Please press enter to start! \n";
+	//Causing pause
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+	//Starting quizz
+	//selecting file to open and saving contents to 4 arrays, question and 3 possible answers
+	
+}
+
